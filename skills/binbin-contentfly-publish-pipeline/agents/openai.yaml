@@ -1,0 +1,7 @@
+interface:
+  display_name: "彬彬内容发布工作流"
+  short_description: "分阶段生成封面标题、双版文字标题、发布文案与自媒体封面"
+  default_prompt: "使用 $binbin-contentfly-publish-pipeline，根据我的视频逐字稿分步完成标题、发布文案和封面。"
+
+policy:
+  allow_implicit_invocation: true

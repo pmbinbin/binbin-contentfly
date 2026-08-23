@@ -1,0 +1,4 @@
+interface:
+  display_name: "彬彬发布文案"
+  short_description: "按固定样本起草，先做发布风险检查，再经人味校准生成最终发布文案"
+  default_prompt: "使用 $binbin-contentfly-publish-copy 读取我的文章，先排除发布风险，再生成一版有人味的发布文案。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "彬彬视频发布风险检查"
+  short_description: "结合语义审核和彬彬内部规范，检查并最小修改发布风险"
+  default_prompt: "使用 $binbin-contentfly-risk-check，检查我提供的视频文稿、标题和画面说明中的发布风险。"

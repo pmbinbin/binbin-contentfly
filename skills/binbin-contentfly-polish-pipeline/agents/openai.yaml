@@ -1,0 +1,4 @@
+interface:
+  display_name: "彬彬内容精修工作流"
+  short_description: "按固定流程精修口播稿，校准逻辑、语气、双标题与发布风险"
+  default_prompt: "使用 $binbin-contentfly-polish-pipeline，完整诊断并精修我提供的口播稿。"

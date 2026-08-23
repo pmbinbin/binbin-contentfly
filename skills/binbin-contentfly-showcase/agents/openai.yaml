@@ -1,0 +1,4 @@
+interface:
+  display_name: "彬彬内容展示页"
+  short_description: "把 Markdown 口播稿转换为观众展示与创作者对稿双栏 HTML"
+  default_prompt: "使用 $binbin-contentfly-showcase，把我提供的 Markdown 口播稿生成双栏 HTML 展示页。"

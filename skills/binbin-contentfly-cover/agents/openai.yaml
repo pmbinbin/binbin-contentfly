@@ -1,0 +1,7 @@
+interface:
+  display_name: "彬彬自媒体封面制作"
+  short_description: "随机选彬彬人像，制作竖版及4:3可裁切B站封面"
+  default_prompt: "使用 $binbin-contentfly-cover，根据我的主题和平台制作合适的自媒体封面。"
+
+policy:
+  allow_implicit_invocation: true

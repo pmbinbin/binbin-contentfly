@@ -1,0 +1,4 @@
+interface:
+  display_name: "彬彬内容飞轮"
+  short_description: "识别内容任务，路由到精修、完整发布、发布文案、风险检查、展示页或封面制作"
+  default_prompt: "使用 $binbin-contentfly，判断我的内容需求并调用合适的彬彬内容飞轮 Skill。"
