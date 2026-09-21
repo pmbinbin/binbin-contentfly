@@ -1,0 +1,4 @@
+interface:
+  display_name: "彬彬短视频创作工作流"
+  short_description: "从 brief 和对标出发，分阶段完成选题、大纲、逐字稿与拍摄脚本"
+  default_prompt: "使用 $binbin-contentfly-create-pipeline，根据项目文件夹中的 brief 和对标稿，从选题方向开始创作一条彬彬风格的短视频。"

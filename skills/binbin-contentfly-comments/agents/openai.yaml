@@ -1,0 +1,4 @@
+interface:
+  display_name: "彬彬评论区生成"
+  short_description: "根据逐字稿生成30条自然评论及彬彬的对应回复"
+  default_prompt: "使用 $binbin-contentfly-comments 根据我提供的逐字稿生成30条自然评论，并为每条配上彬彬的作者回复。"
