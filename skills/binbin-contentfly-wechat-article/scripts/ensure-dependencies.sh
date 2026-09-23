@@ -59,6 +59,12 @@ install_skill() {
         --name gzh-design \
         --dest "$codex_skills_dir"
       ;;
+    baoyu-cover-image)
+      python3 "$installer" \
+        --repo JimLiu/baoyu-skills \
+        --path skills/baoyu-cover-image \
+        --dest "$codex_skills_dir"
+      ;;
     *)
       printf 'DEPENDENCY_INSTALL_ERROR=Unknown dependency: %s\n' "$skill_name" >&2
       return 1
@@ -107,6 +113,11 @@ ensure_skill \
   gzh-design \
   GZH_DESIGN_PATH \
   https://github.com/isjiamu/gzh-design-skill || failed=1
+
+ensure_skill \
+  baoyu-cover-image \
+  BAOYU_COVER_IMAGE_PATH \
+  https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-cover-image || failed=1
 
 if [[ "$failed" -eq 0 ]]; then
   printf 'WECHAT_ARTICLE_DEPENDENCIES_OK=1\n'
