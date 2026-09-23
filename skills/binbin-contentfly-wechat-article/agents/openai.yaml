@@ -1,4 +1,4 @@
 interface:
   display_name: "彬彬公众号文章"
-  short_description: "把视频逐字稿转成带多媒体规划的公众号 Markdown，并完成排版交付"
-  default_prompt: "使用 $binbin-contentfly-wechat-article 把我的视频逐字稿转换成带配图、视频和表格规划的公众号 Markdown。"
+  short_description: "逐字稿转公众号文章，并完成排版与封面"
+  default_prompt: "使用 $binbin-contentfly-wechat-article 把我的已发布视频逐字稿转换成公众号文章，并引导我依次完成 Markdown、公众号排版和封面生成。"
