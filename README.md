@@ -1,6 +1,6 @@
 # binbin-contentfly
 
-彬彬内容飞轮 Skill 仓库。目前包含从 brief 创作短视频、成稿精修、完整发布、发布文案、视频发布风险检查、视频转公众号文章、双栏 HTML 展示页、自媒体封面和评论区生成等十个 Skill。
+彬彬内容飞轮 Skill 仓库。目前包含从 brief 创作短视频、成稿精修、完整发布、发布文案、视频发布风险检查、视频转公众号文章、双栏 HTML 展示页、自媒体封面、朋友圈私域文案和评论区生成等十一个 Skill。
 
 ## 作者
 
@@ -21,6 +21,7 @@
 | `binbin-contentfly-showcase` | 彬彬内容展示页 | 将 Markdown 转成双栏 HTML 展示页 |
 | `binbin-contentfly-cover` | 彬彬自媒体封面制作 | 制作视频号、抖音、小红书及 B 站封面 |
 | `binbin-contentfly-comments` | 彬彬评论区生成 | 根据视频逐字稿生成自然评论及彬彬的对应作者回复 |
+| `binbin-contentfly-moments` | 彬彬朋友圈私域 | 读取一个或多个素材目录，根据真实经历写长短有别的朋友圈和免费 AI 社群文案 |
 
 ## 安装
 
@@ -30,7 +31,7 @@
 npx -y skills add pmbinbin/binbin-contentfly --list
 ```
 
-正常应列出以下 10 个英文标识：
+正常应列出以下 11 个英文标识：
 
 - `binbin-contentfly`
 - `binbin-contentfly-create-pipeline`
@@ -42,6 +43,7 @@ npx -y skills add pmbinbin/binbin-contentfly --list
 - `binbin-contentfly-showcase`
 - `binbin-contentfly-cover`
 - `binbin-contentfly-comments`
+- `binbin-contentfly-moments`
 
 然后安装整个仓库：
 

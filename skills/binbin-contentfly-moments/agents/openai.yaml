@@ -1,0 +1,4 @@
+interface:
+  display_name: "彬彬朋友圈私域"
+  short_description: "读取目录中的真实素材，写有长短节奏的朋友圈与免费社群文案"
+  default_prompt: "使用 $binbin-contentfly-moments，读取我指定的目录，写一组符合彬彬风格的朋友圈文案。"
